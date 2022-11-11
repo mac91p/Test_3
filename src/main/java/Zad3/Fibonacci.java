@@ -3,7 +3,7 @@ package Zad3;
 public class Fibonacci {
     public static void main(String[] args) {
 
-        System.out.println(getFibonacciIndex(89));
+        System.out.println(getFibonacciIndex(88));
 
     }
 
