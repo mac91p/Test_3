@@ -6,13 +6,13 @@ import java.util.List;
 public class MinMaxRunner {
     public static void main(String[] args) {
 
-        List<Integer> integers = new ArrayList<>();
+        List<Integer> integerList = new ArrayList<>();
 
-        integers.add(1);
-        integers.add(2);
-        integers.add(3);
-        integers.add(4);
-        integers.add(5);
+        integerList.add(1);
+        integerList.add(2);
+        integerList.add(3);
+        integerList.add(4);
+        integerList.add(5);
 
         List<String> stringList = new ArrayList<>();
 
@@ -35,7 +35,7 @@ public class MinMaxRunner {
         carList.add(new Car("BMW", "M5", 4395));
 
 
-        System.out.println(MinMaxService.getMinMax(integers));
+        System.out.println(MinMaxService.getMinMax(integerList));
         System.out.println(MinMaxService.getMinMax(stringList));
         System.out.println(MinMaxService.getMinMax(peopleList));
         System.out.println(MinMaxService.getMinMax(carList));
